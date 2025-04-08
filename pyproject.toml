@@ -1,0 +1,10 @@
+[project]
+name = "amap-weather-mcp-server"
+version = "0.1.0"
+description = "使用高德地图API查询中国境内天气。"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+]
